@@ -1,0 +1,13 @@
+<h1>Answer</h1>
+
+<div class="sentence question">
+    <span class="sentence__expression"><%= @question %></span>
+    <span class="sentence__expressor"><em>You</em></span>
+</div>
+<div class="sentence answer">
+    <span class="sentence__expression"><strong><%= @answer %></strong></span>
+    <span class="sentence__expressor"><em>Your coach</em></span>
+</div>
+<div class="backlink">
+    <%=link_to "New question", ask_path %>
+</div>
